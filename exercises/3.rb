@@ -15,3 +15,9 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+mylist = ["milk", "eggs", "bacon", "beer"]
+friendslist = ["beer", "cookies", "apples"]
+combinedlist = mylist + friendslist
+sortedlist = combinedlist.sort
+uniquelist = sortedlist.uniq
+puts uniquelist
